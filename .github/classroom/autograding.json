@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/09SerieFibonacciListas",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Test 2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/17MenoresANumero",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
